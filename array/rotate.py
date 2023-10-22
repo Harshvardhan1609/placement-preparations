@@ -6,7 +6,7 @@ def reverse(arr,start,end):
         end-=1
     return arr
 
-k = int(input())
+
 arrs = reverse(arrs,0,len(arrs)-1)
 arrs = reverse(arrs,0,k-1)
 arrs = reverse(arrs,k,len(arrs)-1)
